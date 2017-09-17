@@ -1,0 +1,199 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+}
+
+.logoSection{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.second-header{
+	background-color: #c9ecf0;
+	color: white; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+}
+
+.nav{
+	margin-bottom: 20px;
+	min-height: 50px; 
+}
+
+
+a{
+
+	color: black;
+	text-decoration: underline;
+
+
+}
+
+
+p{
+
+	color: black;
+	text-align: center;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+	    padding-left: 2cm;
+	      padding-right: 2cm;
+
+}
+.colorblue{
+color: blue
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+.imgCentered {
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-top: 20px;
+}
+
+em{
+
+	color: black;
+	text-align: center;
+	font-style: normal;
+	font-size: 15px;
+}
+
+.myImage {
+  float: center;
+  height: auto;
+  width: 200px;
+  font-family: Veranda;
+}
+.myImagetwo {
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+.wrap {
+	left: 50%;
+	transform: translate(50%, 3%); ;
+}
+
+.heading {
+  float:right;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+nav a, h3{
+text-align: center;
+	float: left;
+	margin: 0px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a{
+	color: #777; /* Hover styles to let people know they can click it */
+
+padding:0 30px; 
+text-align: center;
+}
+
+nav{
+	margin: 0 auto;
+    width: 80%;
+}
+
+
+h1{
+	color:black;
+	font:helvetica;
+	font-size: 60px;
+}
+h2{
+	
+	color:#575656;
+	font:helvetica;
+	font-size: 30px;
+}
+
+.corrouselbtns{
+	margin-top: 10px;
+	width:50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.white{
+	background-color:white;
+}
+.blueh1{
+	color:#575656;
+	font-size:30px;
+}
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	
+}
+
+.g-row img{
+	width: 90%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 90%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+.extramargin{
+	margin-top: 2px;
+}
+.showunderline{
+	border-bottom:1px dashed red;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
+.align-right{
+	text-align: right;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>What We Do</title>
+	<link rel="stylesheet" type="text/css" href="css/style111.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+</head>
+
+<body>
+
+<section class="logoSection" >
+<img src="img/logo.jpg"  style="width:400px;height:228px;" hspace="300">
+
+
+</section>
+
+
+	<div class="nav">
+		<nav>
+		<ul style="text-align: center;list-style:none;display:inline;text-decoration: none">
+			
+			<li class="mainMenu"><a href="whatwedo.html">WHAT WE DO</a></li>
+			<li class="mainMenu"><a href="clients.html">CLIENTS</a></li>
+			<li class="mainMenu"><a href="inquirey.html">INQUIREY</a></li>
+			<li class="mainMenu"><a href="youradvertisement.html">YOUR ADVERTISEMENT</a></li>
+		 </ul>
+	   </nav>
+	</div>
+
+
+	
+	<div class="second-header">
+	<section>
+		
+		<h2 style="text-align: center;"> SEND US AN ADVERT</h2>
+    
+	</section>
+	</div>
+	<div>
+		<div>
+			<img class="mySlides" src="img/bmwad.jpg" alt="BMW Ad" />
+			<img class="mySlides" src="img/allblackad.jpg" alt="All Blacks Ad" />
+			<img class="mySlides" src="img/fonterraad.jpg" alt="Fonterra Ad" />
+			
+		
+			<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+	</div>
+
+<div class="second-header">
+	<section>
+		
+		<h2 style="text-align: center;"> CODING OUR DRONES</h2>
+		
+</section>
+</div>
+
+<section>
+	<img class="imgCentered" src="img/cityview.jpg" alt="City View" align="center" style="width:auto;height:auto;">
+</section>
+<p>
+Our engineers code our drones to fly cohesively as one unit to form a screen. They can be located anywhere in Wellington central. The image or moving image can be displayed in the air for no longer then 3 minutes. There is a guarantee of no glitching and over 25,000 eyes. We have our warehouse located in Wellington Central if you would like to come down and see how it all works. 
+
+
+<div class="second-header">
+	<section>
+		
+		<h2 style="text-align: center;"> PICK A LOCATION</h2>
+	</header>
+	</section>
+</div>
+<p>
+<a href="https://www.google.co.nz/maps/place/Wellington,+6011/@-41.2845258,174.7668598,15z/data=!3m1!4b1!4m5!3m4!1s0x6d38afd51f1af58d:0x500ef6143a318e0!8m2!3d-41.2864257!4d174.7762442"><img style="width: 100%;height: auto;" src="img/mapwellington.png"  class="myImagetwo"/></a></p>
+
+
+<div>
+	<section>
+		
+		<p style="text-align: center;text-decoration: none;"> <a href="http://www.contractmapping.govt.nz/tools/privacy.html">PRIVACY</a> - <a href="http://www.contractmapping.govt.nz/tools/privacy.html">TERMS AND CONDITIONS</a> - <a href="https://www.consumer.org.nz/articles/contract-law?gclid=EAIaIQobChMI-Z7t24eD1gIVmgoqCh3u-wFdEAAYASAAEgLtZvD_BwE">CONTRACTS</a> - <a href="inquirey.html">CONTACT US </p>
+		</header>
+</section>
+<section>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+</html>
